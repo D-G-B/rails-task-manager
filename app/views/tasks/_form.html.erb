@@ -1,0 +1,13 @@
+<%= form_for @task do |f| %>
+  <div>
+    <%= f.label :title, class: "blue-label"%>
+    <%= f.text_field :title %>
+
+    <%= f.label :details %>
+    <%= f.text_field :details %>
+
+    <%= f.submit %>
+
+  </div>
+
+<% end %>
